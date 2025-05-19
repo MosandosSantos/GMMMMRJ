@@ -3675,3 +3675,13 @@ section,
   font-weight: bold;
   text-decoration: underline;
 }
+
+/* 1) Remove qualquer transformação global e preserva o texto conforme escrito */
+#historia .normal-case {
+  text-transform: none;
+}
+
+/* 2) Quando quiser tudo maiúsculo, basta adicionar a classe abaixo */
+#historia .uppercase-on-demand {
+  text-transform: uppercase;
+}
