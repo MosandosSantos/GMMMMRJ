@@ -3685,3 +3685,17 @@ section,
 #historia .uppercase-on-demand {
   text-transform: uppercase;
 }
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
